@@ -37,7 +37,7 @@ There's a section in this Readme file for your notes on each deliverable. As you
 
 **YOUR NOTES**
 ```
-
+Retrieved a random content using the random number generator and selecting from the contentArray using the generated random number. The different attributes of the content are then assigned to their corresponding elements.
 ```
 
 
@@ -47,7 +47,7 @@ There's a section in this Readme file for your notes on each deliverable. As you
 
 **YOUR NOTES**
 ```
-
+Created an event listener for the button and called the renderNewContent() method within the event listener.
 ```
 
 ## Deliverable 3: "Like" button
@@ -60,7 +60,7 @@ There's a section in this Readme file for your notes on each deliverable. As you
 
 **YOUR NOTES**
 ```
-
+Increased the like count for every click of the like button through the event listener for the like button.
 ```
 
 
@@ -73,7 +73,7 @@ The data won't persist (when you refresh the page, the new content won't be avai
 
 **YOUR NOTES**
 ```
-
+Created an event listener for the add new content form and created a content object with the information from the form, which is then pushed to the contentArray. To render the newly created form, the new content object is also passed into the renderContent method.
 ```
 
 ## Deliverable 5: Edit Content
@@ -89,7 +89,7 @@ The data won't persist (when you refresh the page, the content won't have the up
 
 **YOUR NOTES**
 ```
-
+Added a submit event listener to the update form. Retrieved the information from the form's inputs and updated their corresponding values in the contentArray. Also passsed in the updated content object to the render content method to render the newly updated content.
 ```
 
 
